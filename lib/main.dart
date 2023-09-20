@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import 'package:provider_practice/provider/count_provider.dart';
-import 'package:provider_practice/screens/count_example.dart';
+import 'package:provider_practice/screens/example_one.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: const CountExample(),
+        home: const ExampleOne(),
       ),
     );
   }
