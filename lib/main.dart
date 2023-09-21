@@ -4,7 +4,7 @@ import 'package:provider_practice/provider/count_provider.dart';
 import 'package:provider_practice/provider/example_one_provider.dart';
 import 'package:provider_practice/provider/favourite_provider.dart';
 import 'package:provider_practice/provider/theme_changer_provider.dart';
-import 'package:provider_practice/screens/dark_theme.dart';
+import 'package:provider_practice/screens/value_notify_listner.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,7 +46,7 @@ class MyApp extends StatelessWidget {
                 primaryColor: Colors.pink,
                 iconTheme: const IconThemeData(color: Colors.amber),
                 appBarTheme: const AppBarTheme(backgroundColor: Colors.teal)),
-            home: const DarkThemeScreen(),
+            home: NotifyListnerScreen(),
           );
         }));
   }
